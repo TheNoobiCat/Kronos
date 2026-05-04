@@ -3,6 +3,7 @@ Fetch years of 30m klines from Binance for crypto finetuning.
 Saves CSV files consumable by finetune_csv/train_sequential.py.
 """
 import json
+import os
 import urllib.request
 import pandas as pd
 import time

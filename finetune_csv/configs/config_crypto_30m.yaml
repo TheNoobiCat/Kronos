@@ -24,7 +24,7 @@ training:
 
 model_paths:
   pretrained_tokenizer: "NeoQuasar/Kronos-Tokenizer-base"
-  pretrained_predictor: "NeoQuasar/Kronos-small"
+  pretrained_predictor: "NeoQuasar/Kronos-base"
   exp_name: "crypto_30m_sol_btc_eth"
   base_path: "/home/samuel/Kronos/finetune_csv/finetuned/"
   base_save_path: ""
